@@ -1,0 +1,231 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Updated to Segoe UI */
+    background-color: #ffffff; /* Light background for clarity */
+    color: #333;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px; /* Added padding for breathing space */
+}
+
+/* Heading Styles - Left-aligned and Bold */
+h1, h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; /* Updated to Segoe UI */
+    color: #2c3e50;
+    margin-bottom: 1.5em; /* More space below headings */
+    text-align: left; /* Align titles to the left */
+    font-size: 2rem; /* Larger font for prominent headings */
+    font-weight: 700; /* Set to bold */
+    cursor: default;
+}
+
+/* Blockquote Styling */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    font-style: italic;
+    margin: 20px 0;
+    color: #7f8c8d;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Preformatted and Inline Code Styles */
+pre, code {
+    font-family: 'Courier New', monospace;
+    background-color: #f4f6f9; /* Soft background color for code blocks */
+    color: #333;
+    padding: 12px;
+    border-radius: 5px;
+    border: none; /* Removed the border */
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    box-shadow: none; /* Removed any internal box-shadow */
+}
+
+/* Inline Code Styling */
+code {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #f4f6f9;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Lists Styling */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px; /* Indented list items */
+}
+
+ul li, ol li {
+    margin-bottom: 12px; /* More space between list items */
+}
+
+/* Task List Styling */
+ul.task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+ul.task-list input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Link Styling */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500; /* Slightly bold links */
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Horizontal Rule Styling */
+hr {
+    border: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Strong (Bold) Text */
+strong {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Emphasized (Italic) Text */
+em {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+/* Strikethrough Text */
+del {
+    text-decoration: line-through;
+    color: #e74c3c; /* Red for strikethrough */
+}
+
+/* Footnote Styling */
+footer {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd; /* Light line above footnote */
+}
+
+/* Footnote Reference */
+sup {
+    font-size: 1.2em;
+    color: #3498db;
+    cursor: default;
+}
+
+/* Math Support (MathJax) */
+.math {
+    display: inline-block;
+    font-size: 1.2em;
+    background-color: #f9f9f9;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    ul, ol {
+        padding-left: 30px;
+    }
+
+    pre, code {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    img {
+        margin: 10px 0;
+    }
+
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+/* Syntax Highlighting for Code Block (Optional) */
+pre code {
+    background-color: #f4f6f9;
+    padding: 12px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    padding: 20px;
+    font-style: italic;
+    margin: 20px 0;
+    color: #7f8c8d;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+}
+
+/* Adjust link appearance for minimalism */
+a:focus, a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #3498db; /* Ensuring consistent link color */
+}
